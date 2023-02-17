@@ -5,32 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Open+Sans&family=Parisienne&display=swap"
+        rel="stylesheet">
     <title>Contact</title>
 </head>
 
 <body>
-<h1>Contacto:</h1>
-    <form action="enviar.php" method="get">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-            <span>Tip: Usa un nombre que te guste</span>
-        </div>
-        <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" id="apellido">
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div>
-            <label for="edad">Edad:</label>
-            <input type="number" name="edad" id="edad">
-        </div>
-        <input type="submit" value="Enviar">
-    </form>
 
+<div class="contact-section">
+    <h2>
+        <span class="alert">Dinos cuál es su consulta:</span>
+    </h2>
+    <form class="container-form" action="enviar.php" method="get">
+
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+
+        <label for="telefono">Teléfono:</label>
+        <input type="number" name="telefono" id="telefono">
+
+
+        <label for="tarjeta">Numero de socio:</label>
+        <input type="number" name="tarjeta" id="tarjeta">
+
+
+        <label for="tienda">Tienda:</label>
+        <input type="number" name="tienda" id="tienda">
+        <div id="tienda-button">
+        <button>D%</button>
+        <button>Buscar Tienda</button>
+        </div>
+
+        <label for="comentario">Comentario</label>
+        <textarea name="comen
+                " id="comentario">
+            </textarea>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</div>
 </body>
 
 </html>

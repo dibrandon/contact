@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: rgb(188, 188, 188);
+
+}
+
+.contact-section {
+    margin: 0.5rem;
+}
+.container-form {
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+    max-width: 720px;
+    height: 600px;
+    background-color: rgba(69, 188, 188, 0.564);
+    margin: 0;
+    padding: 0;
+
+}
+
+.alert {
+    color: red;
+}
+.container-form div { 
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+}
+
+#tienda-button {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: center;
+}
+
