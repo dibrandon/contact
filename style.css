@@ -6,11 +6,6 @@
     font-weight: 300;
 }
 
-body {
-    background-color: rgb(188, 188, 188);
-
-}
-
 .contact-section {
     margin: 0.5rem;
 }
@@ -24,7 +19,6 @@ body {
 	align-content: stretch;
     max-width: 720px;
     height: 600px;
-    background-color: rgba(69, 188, 188, 0.564);
     margin: 0;
     padding: 0;
 
@@ -46,6 +40,12 @@ input,
 textarea {
     border-radius: 5px;
 }
+input, button {
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
 
 #tienda-button {
     display: flex;
