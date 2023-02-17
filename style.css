@@ -56,3 +56,17 @@ input, button {
 	align-content: center;
 }
 
+@media (min-width: 721px) {
+    .contact-section{
+        display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+    }
+    .container-form {
+        min-width: 720px;
+    }
+}
+
